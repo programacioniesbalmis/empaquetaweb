@@ -6,7 +6,6 @@ namespace QuizGen.Tests
 {
     public class Test
     {
-        public string Categoria { get; init; }
         public List<Pregunta> Preguntas { get; init; }
 
         private string ToYAML()
@@ -29,8 +28,16 @@ namespace QuizGen.Tests
             return deserializer.Deserialize<Test>(yaml);
         }
 
-        public XElement ToXML()
+        public XElement ToXML(string nombreFichero = "general")
         {
+            var instrucciones = @"
+            <p>Cada pregunta puede tener <b>una o más</b> de una respuestas correctas</p>.
+            <p>La puntuación de cada pregunta se divide entre el número de respuestas correctas</p>.
+            <p>Cada respuesta incorrecta resta también en proporción al número de posibilidades incorrectas</p>.
+            <p>Tiene dos intentos para realizar la prueba y la calificación final será la media de ambos</p>.
+            <p>Una vez finalice el plazo para realizar la prueba, podrá ver aquellos casos donde ha fallado y no podrá volver a realizarla</p>.
+            ";
+
             var xml = new XElement("quiz",
                 new XElement("question",
                     new XAttribute("type", "category"),
@@ -46,7 +53,7 @@ namespace QuizGen.Tests
                     new XElement("questiontext",
                         new XAttribute("format", "html"),
                         new XElement("text",
-                            new XCData("Aquí van las instrucciones.")
+                            new XCData(instrucciones)
                         )
                     ),
                     new XElement("defaultgrade", "0.0000000"),
@@ -54,9 +61,9 @@ namespace QuizGen.Tests
                     new XElement("hidden", "0")
                 )
             );
-
+            double puntucionPorDefecto = 10D / Preguntas.Count;
             Preguntas.ForEach(
-                pregunta => xml.Add(pregunta.ToXML())
+                pregunta => xml.Add(pregunta.ToXML(puntucionPorDefecto))
             );
             return xml;
         }

@@ -1,5 +1,4 @@
-﻿categoria: B1-la_plataforma_dotnet
-preguntas:
+﻿preguntas:
 - enunciado: ¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?
   respuestas:
   - texto: Tener el CLR instalado.

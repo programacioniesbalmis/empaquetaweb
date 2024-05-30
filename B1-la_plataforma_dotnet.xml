@@ -9,7 +9,13 @@
       <text>Instrucciones de la prueba</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[Aquí van las instrucciones.]]></text>
+      <text><![CDATA[
+            <p>Cada pregunta puede tener <b>una o más</b> de una respuestas correctas</p>.
+            <p>La puntuación de cada pregunta se divide entre el número de respuestas correctas</p>.
+            <p>Cada respuesta incorrecta resta también en proporción al número de posibilidades incorrectas.</p>
+            <p>Tiene dos intentos para realizar la prueba y la calificación final será la media de ambos.</p>
+            <p>Una vez finalice el plazo para realizar la prueba, podrá ver aquellos casos donde ha fallado y no podrá volver a realizarla.</p>
+            ]]></text>
     </questiontext>
     <defaultgrade>0.0000000</defaultgrade>
     <penalty>0.0000000</penalty>
@@ -20,14 +26,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?]]></text>
+      <text><![CDATA[<h4>¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -39,17 +45,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="100" format="html">
-      <text><![CDATA[Tener el CLR instalado.]]></text>
+    <answer fraction="50.000" format="html">
+      <text><![CDATA[<p>Tener el CLR instalado.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[Tener el Runtime instalado.]]></text>
+    <answer fraction="50.000" format="html">
+      <text><![CDATA[<p>Tener el Runtime instalado.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Tener el SDK .NET Framework instalado.]]></text>
+    <answer fraction="-50.000" format="html">
+      <text><![CDATA[<p>Tener el SDK .NET Framework instalado.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Utilizar el sistema operativo Windows.]]></text>
+    <answer fraction="-50.000" format="html">
+      <text><![CDATA[<p>Utilizar el sistema operativo Windows.</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -57,14 +63,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?]]></text>
+      <text><![CDATA[<h4>¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -76,17 +82,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[Es un fichero con el código ensamblador nativo de la máquina.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Es un fichero con el código ensamblador nativo de la máquina.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Es un fichero que contiene solo el código en IL para el CLR.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Es un fichero que contiene solo el código en IL para el CLR.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[Es un fichero que contiene el código en IL más otro contenido necesario para el CLR]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>Es un fichero que contiene el código en IL más otro contenido necesario para el CLR</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Son <b>siempre</b> ejecutables.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Son <b>siempre</b> ejecutables.</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -94,14 +100,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL]]></text>
+      <text><![CDATA[<h4>Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -113,17 +119,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[Crackear un programa que precisa de número de licencia para funcionar.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Crackear un programa que precisa de número de licencia para funcionar.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Utilizar algún tipo de Ramsonware para cifrar el IL.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Utilizar algún tipo de Ramsonware para cifrar el IL.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[Deducir el código de alto nivel o cómo se hizo un prográma a partir de su IL.]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>Deducir el código de alto nivel o cómo se hizo un prográma a partir de su IL.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Ninguna de las respuestas anteriores es cierta.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Ninguna de las respuestas anteriores es cierta.</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -131,14 +137,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?]]></text>
+      <text><![CDATA[<h4>¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -150,17 +156,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="100" format="html">
-      <text><![CDATA[El .NET Core está pensado para desarrollos basados en Microservicios en la nube, CI/CD y Contenedores]]></text>
+    <answer fraction="33.333" format="html">
+      <text><![CDATA[<p>El .NET Core está pensado para desarrollos basados en Microservicios en la nube, CI/CD y Contenedores</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[El .NET Framework es más moderno.]]></text>
+    <answer fraction="-100.000" format="html">
+      <text><![CDATA[<p>El .NET Framework es más moderno.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[El .NET Core es multiplataforma.]]></text>
+    <answer fraction="33.333" format="html">
+      <text><![CDATA[<p>El .NET Core es multiplataforma.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[El .NET Core permite usar versiones superiores del lenguaje C#.]]></text>
+    <answer fraction="33.333" format="html">
+      <text><![CDATA[<p>El .NET Core permite usar versiones superiores del lenguaje C#.</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -168,14 +174,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[¿Cual será la <b>siguiente</b> versión con LTS de .NET?]]></text>
+      <text><![CDATA[<h4>¿Cual será la <b>siguiente</b> versión con LTS de .NET?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -187,17 +193,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[.NET Core 5]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>.NET Core 5</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[.NET 5]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>.NET 5</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[.NET 6]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>.NET 6</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[.NET Core 3.3]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>.NET Core 3.3</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -205,14 +211,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[Indica cual de las siguientes afirmaciones es <b>cierta</b>.]]></text>
+      <text><![CDATA[<h4>Indica cual de las siguientes afirmaciones es <b>cierta</b>.</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -224,17 +230,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[El lenguaje C# no está estandarizado.]]></text>
+    <answer fraction="-50.000" format="html">
+      <text><![CDATA[<p>El lenguaje C# no está estandarizado.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[C#9 no se podrá usar hasta la versión .NET 5]]></text>
+    <answer fraction="50.000" format="html">
+      <text><![CDATA[<p>C#9 no se podrá usar hasta la versión .NET 5</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[.NET 5 es de código abierto]]></text>
+    <answer fraction="50.000" format="html">
+      <text><![CDATA[<p>.NET 5 es de código abierto</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[.NET solo permite desarrollos en un único lenguaje de programación que es C#]]></text>
+    <answer fraction="-50.000" format="html">
+      <text><![CDATA[<p>.NET solo permite desarrollos en un único lenguaje de programación que es C#</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -242,14 +248,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[¿Qué es el JIT?]]></text>
+      <text><![CDATA[<h4>¿Qué es el JIT?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -261,17 +267,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[Se encarga del proceso de compilación a IL.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Se encarga del proceso de compilación a IL.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[Se encarga de traducir el IL al código nativo de la máquina.]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>Se encarga de traducir el IL al código nativo de la máquina.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Son unas librerías de código que vienen por defecto en la propia plataforma .NET.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Son unas librerías de código que vienen por defecto en la propia plataforma .NET.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Se encarga de leer los metadatos de un ensamblado.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Se encarga de leer los metadatos de un ensamblado.</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -279,14 +285,14 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[Indica cual de las siguientes afirmaciones es <b>falsa</b>.]]></text>
+      <text><![CDATA[<h4>Indica cual de las siguientes afirmaciones es <b>falsa</b>.</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.0000000</defaultgrade>
+    <defaultgrade>1.25</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
     <shuffleanswers>true</shuffleanswers>
-    <answernumbering>12345</answernumbering>
+    <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
     <correctfeedback format="html">
       <text>Respuesta correcta</text>
@@ -298,17 +304,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="0" format="html">
-      <text><![CDATA[El <b>CLS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>El <b>CLS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.</p>]]></text>
     </answer>
-    <answer fraction="100" format="html">
-      <text><![CDATA[El <b>CTS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>El <b>CTS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[Las BCL son unas librerías.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Las BCL son unas librerías.</p>]]></text>
     </answer>
-    <answer fraction="0" format="html">
-      <text><![CDATA[El espacio de nombres <b>System.IO</b> define los tipos que me permitirán realizar la entrada y salida por consola.]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>El espacio de nombres <b>System.IO</b> define los tipos que me permitirán realizar la entrada y salida por consola.</p>]]></text>
     </answer>
   </question>
 </quiz>
