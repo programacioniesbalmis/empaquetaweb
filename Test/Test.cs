@@ -36,22 +36,22 @@ namespace QuizGen.Tests
                     new XAttribute("type", "category"),
                     new XElement("category",
                         new XElement("text", $"$course$/top/{Categoria}")
-                    ),
-                    new XElement("question",
-                        new XAttribute("type", "description"),
-                        new XElement("name",
-                            new XElement("text", "Instrucciones de la prueba")
-                        ),
-                        new XElement("questiontext",
-                            new XAttribute("format", "html"),
-                            new XElement("text",
-                                new XCData("Aquí van las instrucciones.")
-                            )
-                        ),
-                        new XElement("defaultgrade", "0.0000000"),
-                        new XElement("penalty", "0.0000000"),
-                        new XElement("hidden", "0")
                     )
+                ),
+                new XElement("question",
+                    new XAttribute("type", "description"),
+                    new XElement("name",
+                        new XElement("text", "Instrucciones de la prueba")
+                    ),
+                    new XElement("questiontext",
+                        new XAttribute("format", "html"),
+                        new XElement("text",
+                            new XCData("Aquí van las instrucciones.")
+                        )
+                    ),
+                    new XElement("defaultgrade", "0.0000000"),
+                    new XElement("penalty", "0.0000000"),
+                    new XElement("hidden", "0")
                 )
             );
 

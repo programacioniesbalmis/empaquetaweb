@@ -1,7 +1,6 @@
 ﻿categoria: B1-la_plataforma_dotnet
 preguntas:
-- nombre: 
-  enunciado: ¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?
+- enunciado: ¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?
   respuestas:
   - texto: Tener el CLR instalado.
     correcta: true
@@ -11,8 +10,7 @@ preguntas:
     correcta: false
   - texto: Utilizar el sistema operativo Windows.
     correcta: false
-- nombre: 
-  enunciado: ¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?
+- enunciado: ¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?
   respuestas:
   - texto: Es un fichero con el código ensamblador nativo de la máquina.
     correcta: false
@@ -22,8 +20,7 @@ preguntas:
     correcta: true
   - texto: Son <b>siempre</b> ejecutables.
     correcta: false
-- nombre: 
-  enunciado: Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL
+- enunciado: Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL
   respuestas:
   - texto: Crackear un programa que precisa de número de licencia para funcionar.
     correcta: false
@@ -33,8 +30,7 @@ preguntas:
     correcta: true
   - texto: Ninguna de las respuestas anteriores es cierta.
     correcta: false
-- nombre: 
-  enunciado: ¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?
+- enunciado: ¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?
   respuestas:
   - texto: El .NET Core está pensado para desarrollos basados en Microservicios en la nube, CI/CD y Contenedores
     correcta: true
@@ -44,8 +40,7 @@ preguntas:
     correcta: true
   - texto: El .NET Core permite usar versiones superiores del lenguaje C#.
     correcta: true
-- nombre: 
-  enunciado: ¿Cual será la <b>siguiente</b> versión con LTS de .NET?
+- enunciado: ¿Cual será la <b>siguiente</b> versión con LTS de .NET?
   respuestas:
   - texto: .NET Core 5
     correcta: false
@@ -55,8 +50,7 @@ preguntas:
     correcta: true
   - texto: .NET Core 3.3
     correcta: false
-- nombre: 
-  enunciado: Indica cual de las siguientes afirmaciones es <b>cierta</b>.
+- enunciado: Indica cual de las siguientes afirmaciones es <b>cierta</b>.
   respuestas:
   - texto: El lenguaje C# no está estandarizado.
     correcta: false
@@ -66,8 +60,7 @@ preguntas:
     correcta: true
   - texto: .NET solo permite desarrollos en un único lenguaje de programación que es C#
     correcta: false
-- nombre: 
-  enunciado: ¿Qué es el JIT?
+- enunciado: ¿Qué es el JIT?
   respuestas:
   - texto: Se encarga del proceso de compilación a IL.
     correcta: false
@@ -77,8 +70,7 @@ preguntas:
     correcta: false
   - texto: Se encarga de leer los metadatos de un ensamblado.
     correcta: false
-- nombre: 
-  enunciado: Indica cual de las siguientes afirmaciones es <b>falsa</b>.
+- enunciado: Indica cual de las siguientes afirmaciones es <b>falsa</b>.
   respuestas:
   - texto: El <b>CLS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.
     correcta: false

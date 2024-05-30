@@ -4,7 +4,6 @@ namespace QuizGen.Tests
 {
     public class Pregunta
     {
-        public string Nombre { get; init; }
         public string Enunciado { get; init; }
         public List<Respuesta> Respuestas { get; init; }
         public XElement ToXML()
@@ -17,7 +16,7 @@ namespace QuizGen.Tests
                 "question",
                 new XAttribute("type", "multichoice"),
                 new XElement("name",
-                    new XElement("text", Nombre)
+                    new XElement("text", "")
                 ),
                 new XElement("questiontext",
                     new XAttribute("format", "html"),

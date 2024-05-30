@@ -3,21 +3,21 @@
     <category>
       <text>$course$/top/B1-la_plataforma_dotnet</text>
     </category>
-    <question type="description">
-      <name>
-        <text>Instrucciones de la prueba</text>
-      </name>
-      <questiontext format="html">
-        <text><![CDATA[Aquí van las instrucciones.]]></text>
-      </questiontext>
-      <defaultgrade>0.0000000</defaultgrade>
-      <penalty>0.0000000</penalty>
-      <hidden>0</hidden>
-    </question>
+  </question>
+  <question type="description">
+    <name>
+      <text>Instrucciones de la prueba</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[Aquí van las instrucciones.]]></text>
+    </questiontext>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?]]></text>
@@ -54,7 +54,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?]]></text>
@@ -91,7 +91,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL]]></text>
@@ -128,7 +128,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?]]></text>
@@ -165,7 +165,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Cual será la <b>siguiente</b> versión con LTS de .NET?]]></text>
@@ -202,7 +202,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[Indica cual de las siguientes afirmaciones es <b>cierta</b>.]]></text>
@@ -239,7 +239,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[¿Qué es el JIT?]]></text>
@@ -276,7 +276,7 @@
   </question>
   <question type="multichoice">
     <name>
-      <text />
+      <text></text>
     </name>
     <questiontext format="html">
       <text><![CDATA[Indica cual de las siguientes afirmaciones es <b>falsa</b>.]]></text>
