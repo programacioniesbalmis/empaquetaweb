@@ -7,7 +7,6 @@ namespace QuizGen.Tests
         {
             return new Test
             {
-                Categoria = "B1-la_plataforma_dotnet",
                 Preguntas = new List<Pregunta>
                 {
                     new Pregunta

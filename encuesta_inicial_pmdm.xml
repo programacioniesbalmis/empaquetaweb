@@ -1,7 +1,7 @@
 ﻿<quiz>
   <question type="category">
     <category>
-      <text>$course$/top/B1-la_plataforma_dotnet</text>
+      <text>$course$/top/encuesta_inicial_pmdm</text>
     </category>
   </question>
   <question type="description">
@@ -12,9 +12,9 @@
       <text><![CDATA[
             <p>Cada pregunta puede tener <b>una o más</b> de una respuestas correctas</p>.
             <p>La puntuación de cada pregunta se divide entre el número de respuestas correctas</p>.
-            <p>Cada respuesta incorrecta resta también en proporción al número de posibilidades incorrectas.</p>
-            <p>Tiene dos intentos para realizar la prueba y la calificación final será la media de ambos.</p>
-            <p>Una vez finalice el plazo para realizar la prueba, podrá ver aquellos casos donde ha fallado y no podrá volver a realizarla.</p>
+            <p>Cada respuesta incorrecta resta también en proporción al número de posibilidades incorrectas</p>.
+            <p>Tiene dos intentos para realizar la prueba y la calificación final será la media de ambos</p>.
+            <p>Una vez finalice el plazo para realizar la prueba, podrá ver aquellos casos donde ha fallado y no podrá volver a realizarla</p>.
             ]]></text>
     </questiontext>
     <defaultgrade>0.0000000</defaultgrade>
@@ -26,120 +26,9 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<h4>¿Qué condición mínima es necesaria para <b>ejecutar</b> aplicaciones .NET en un sistema operativo?</h4>]]></text>
+      <text><![CDATA[<h4>¿Cual de las siguiente tecnologías no es un lenguaje de programación?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.25</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Respuesta correcta</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Respuesta parcialmente correcta.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Respuesta incorrecta.</text>
-    </incorrectfeedback>
-    <shownumcorrect />
-    <answer fraction="50.000" format="html">
-      <text><![CDATA[<p>Tener el CLR instalado.</p>]]></text>
-    </answer>
-    <answer fraction="50.000" format="html">
-      <text><![CDATA[<p>Tener el Runtime instalado.</p>]]></text>
-    </answer>
-    <answer fraction="-50.000" format="html">
-      <text><![CDATA[<p>Tener el SDK .NET Framework instalado.</p>]]></text>
-    </answer>
-    <answer fraction="-50.000" format="html">
-      <text><![CDATA[<p>Utilizar el sistema operativo Windows.</p>]]></text>
-    </answer>
-  </question>
-  <question type="multichoice">
-    <name>
-      <text></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<h4>¿Qué es un <b>ensamble</b> o <b>ensamblado</b> en .NET?</h4>]]></text>
-    </questiontext>
-    <defaultgrade>1.25</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Respuesta correcta</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Respuesta parcialmente correcta.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Respuesta incorrecta.</text>
-    </incorrectfeedback>
-    <shownumcorrect />
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Es un fichero con el código ensamblador nativo de la máquina.</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Es un fichero que contiene solo el código en IL para el CLR.</p>]]></text>
-    </answer>
-    <answer fraction="100.000" format="html">
-      <text><![CDATA[<p>Es un fichero que contiene el código en IL más otro contenido necesario para el CLR</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Son <b>siempre</b> ejecutables.</p>]]></text>
-    </answer>
-  </question>
-  <question type="multichoice">
-    <name>
-      <text></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<h4>Busca en Internet y deduce que queremos decir con <b><em>'Ingeniería Inversa'</em></b> del IL</h4>]]></text>
-    </questiontext>
-    <defaultgrade>1.25</defaultgrade>
-    <penalty>0.0000000</penalty>
-    <hidden>0</hidden>
-    <single>false</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="html">
-      <text>Respuesta correcta</text>
-    </correctfeedback>
-    <partiallycorrectfeedback format="html">
-      <text>Respuesta parcialmente correcta.</text>
-    </partiallycorrectfeedback>
-    <incorrectfeedback format="html">
-      <text>Respuesta incorrecta.</text>
-    </incorrectfeedback>
-    <shownumcorrect />
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Crackear un programa que precisa de número de licencia para funcionar.</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Utilizar algún tipo de Ramsonware para cifrar el IL.</p>]]></text>
-    </answer>
-    <answer fraction="100.000" format="html">
-      <text><![CDATA[<p>Deducir el código de alto nivel o cómo se hizo un prográma a partir de su IL.</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Ninguna de las respuestas anteriores es cierta.</p>]]></text>
-    </answer>
-  </question>
-  <question type="multichoice">
-    <name>
-      <text></text>
-    </name>
-    <questiontext format="html">
-      <text><![CDATA[<h4>¿Qué diferencia hay entre <b>.NET Framework</b> y el <b>.NET Core</b>?</h4>]]></text>
-    </questiontext>
-    <defaultgrade>1.25</defaultgrade>
+    <defaultgrade>1.4285714285714286</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
@@ -157,16 +46,16 @@
     </incorrectfeedback>
     <shownumcorrect />
     <answer fraction="33.333" format="html">
-      <text><![CDATA[<p>El .NET Core está pensado para desarrollos basados en Microservicios en la nube, CI/CD y Contenedores</p>]]></text>
+      <text><![CDATA[<p>Dart</p>]]></text>
+    </answer>
+    <answer fraction="33.333" format="html">
+      <text><![CDATA[<p>Kotlin</p>]]></text>
     </answer>
     <answer fraction="-100.000" format="html">
-      <text><![CDATA[<p>El .NET Framework es más moderno.</p>]]></text>
+      <text><![CDATA[<p>Flutter</p>]]></text>
     </answer>
     <answer fraction="33.333" format="html">
-      <text><![CDATA[<p>El .NET Core es multiplataforma.</p>]]></text>
-    </answer>
-    <answer fraction="33.333" format="html">
-      <text><![CDATA[<p>El .NET Core permite usar versiones superiores del lenguaje C#.</p>]]></text>
+      <text><![CDATA[<p>Swift</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -174,9 +63,46 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<h4>¿Cual será la <b>siguiente</b> versión con LTS de .NET?</h4>]]></text>
+      <text><![CDATA[<h4>¿Qué es un IDE?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.25</defaultgrade>
+    <defaultgrade>1.4285714285714286</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect />
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>Un entorno de desarrollo integrado</p>]]></text>
+    </answer>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un lenguaje de programación</p>]]></text>
+    </answer>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un sistema operativo</p>]]></text>
+    </answer>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un framework</p>]]></text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>¿Cual de los siguientes programas no es un IDE?</h4>]]></text>
+    </questiontext>
+    <defaultgrade>1.4285714285714286</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
@@ -194,16 +120,16 @@
     </incorrectfeedback>
     <shownumcorrect />
     <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>.NET Core 5</p>]]></text>
+      <text><![CDATA[<p>Android Studio</p>]]></text>
     </answer>
     <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>.NET 5</p>]]></text>
+      <text><![CDATA[<p>Visual Studio Code</p>]]></text>
     </answer>
     <answer fraction="100.000" format="html">
-      <text><![CDATA[<p>.NET 6</p>]]></text>
+      <text><![CDATA[<p>Flutter</p>]]></text>
     </answer>
     <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>.NET Core 3.3</p>]]></text>
+      <text><![CDATA[<p>IntelliJ IDEA</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -211,9 +137,9 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<h4>Indica cual de las siguientes afirmaciones es <b>cierta</b>.</h4>]]></text>
+      <text><![CDATA[<h4>¿Qué es un framework?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.25</defaultgrade>
+    <defaultgrade>1.4285714285714286</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
@@ -230,17 +156,17 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="-50.000" format="html">
-      <text><![CDATA[<p>El lenguaje C# no está estandarizado.</p>]]></text>
+    <answer fraction="100.000" format="html">
+      <text><![CDATA[<p>Un conjunto de librerías y herramientas para facilitar el desarrollo</p>]]></text>
     </answer>
-    <answer fraction="50.000" format="html">
-      <text><![CDATA[<p>C#9 no se podrá usar hasta la versión .NET 5</p>]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un lenguaje de programación</p>]]></text>
     </answer>
-    <answer fraction="50.000" format="html">
-      <text><![CDATA[<p>.NET 5 es de código abierto</p>]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un sistema operativo</p>]]></text>
     </answer>
-    <answer fraction="-50.000" format="html">
-      <text><![CDATA[<p>.NET solo permite desarrollos en un único lenguaje de programación que es C#</p>]]></text>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Un IDE</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -248,9 +174,9 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<h4>¿Qué es el JIT?</h4>]]></text>
+      <text><![CDATA[<h4>Crees que un programa nativo de Android puede funcionar en un iPhone</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.25</defaultgrade>
+    <defaultgrade>1.4285714285714286</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
@@ -268,16 +194,16 @@
     </incorrectfeedback>
     <shownumcorrect />
     <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Se encarga del proceso de compilación a IL.</p>]]></text>
+      <text><![CDATA[<p>Sí, si se programa en Java</p>]]></text>
+    </answer>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Sí, si se programa en Swift</p>]]></text>
+    </answer>
+    <answer fraction="-33.333" format="html">
+      <text><![CDATA[<p>Sí, si se programa en Dart</p>]]></text>
     </answer>
     <answer fraction="100.000" format="html">
-      <text><![CDATA[<p>Se encarga de traducir el IL al código nativo de la máquina.</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Son unas librerías de código que vienen por defecto en la propia plataforma .NET.</p>]]></text>
-    </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Se encarga de leer los metadatos de un ensamblado.</p>]]></text>
+      <text><![CDATA[<p>No en ningún caso</p>]]></text>
     </answer>
   </question>
   <question type="multichoice">
@@ -285,9 +211,9 @@
       <text></text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<h4>Indica cual de las siguientes afirmaciones es <b>falsa</b>.</h4>]]></text>
+      <text><![CDATA[<h4>¿Cual de los siguientes tecnologías es multiplataforma?</h4>]]></text>
     </questiontext>
-    <defaultgrade>1.25</defaultgrade>
+    <defaultgrade>1.4285714285714286</defaultgrade>
     <penalty>0.0000000</penalty>
     <hidden>0</hidden>
     <single>false</single>
@@ -304,17 +230,54 @@
       <text>Respuesta incorrecta.</text>
     </incorrectfeedback>
     <shownumcorrect />
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>El <b>CLS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.</p>]]></text>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>Flutter</p>]]></text>
     </answer>
-    <answer fraction="100.000" format="html">
-      <text><![CDATA[<p>El <b>CTS</b> contiene son los tipos comunes a todos los lenguajes que se pueden usar en la plataforma y así asegurar interoprabilidad entre ellos.</p>]]></text>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>MAUI</p>]]></text>
     </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>Las BCL son unas librerías.</p>]]></text>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>KMP</p>]]></text>
     </answer>
-    <answer fraction="-33.333" format="html">
-      <text><![CDATA[<p>El espacio de nombres <b>System.IO</b> define los tipos que me permitirán realizar la entrada y salida por consola.</p>]]></text>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>React</p>]]></text>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text></text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<h4>¿Qué plataformas tiene como destino <em>'Kotlin Multiplatform'</em> (<b>KMP</b>)?</h4>]]></text>
+    </questiontext>
+    <defaultgrade>1.4285714285714286</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Respuesta correcta</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Respuesta parcialmente correcta.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Respuesta incorrecta.</text>
+    </incorrectfeedback>
+    <shownumcorrect />
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>Android</p>]]></text>
+    </answer>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>iOS</p>]]></text>
+    </answer>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>Web</p>]]></text>
+    </answer>
+    <answer fraction="25.000" format="html">
+      <text><![CDATA[<p>Windows</p>]]></text>
     </answer>
   </question>
 </quiz>

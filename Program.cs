@@ -6,7 +6,7 @@ class Program
     private static void Main()
     {
         using StreamReader sR = new StreamReader(
-            "B1-la_plataforma_dotnet.yaml", 
+            "encuesta_inicial_pmdm.yaml", 
             Encoding.UTF8);
         string yaml = sR.ReadToEnd();
         
@@ -14,10 +14,10 @@ class Program
         Console.WriteLine(test);
 
         using StreamWriter sW = new StreamWriter(
-            "B1-la_plataforma_dotnet.xml", 
+            "encuesta_inicial_pmdm.xml", 
             false, 
             Encoding.UTF8);
-        sW.WriteLine(test.ToXML());
+        sW.WriteLine(test.ToXML(Path.GetFileNameWithoutExtension("encuesta_inicial_pmdm.xml")));
     }
 }
 
